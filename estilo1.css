@@ -149,6 +149,7 @@ h2.conteudo-lateral {
     font-size: 1.3em;
     font-weight: bold;
     text-indent: 8px;
+    list-style-position: inside;
 }
 
 footer {
