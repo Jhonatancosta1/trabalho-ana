@@ -146,7 +146,7 @@ h2.conteudo-lateral {
     font-family: var(--font2);
     color: var(--cor4);
     width: 100vh;
-    height: 100lvw;
+    height: 100vw;
     padding: 10px;
     font-size: 1.3em;
     font-weight: bold;
