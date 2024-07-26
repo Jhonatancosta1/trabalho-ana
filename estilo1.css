@@ -104,6 +104,7 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    display: flex;
 }
 
 main h1 {
@@ -114,14 +115,20 @@ main h1 {
 }
 
 main h2 {
-    color: var(--cor3);
-    font-family: var(--cor4);
-    font-weight: normal;
-    font-size: 1.8em;
+    font-family: var(--font2);
+    color: var(--cor4);
+    padding: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-indent: 8px;
 }
 
-main{
-    display: flex;
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 34px;
+    font-size: 1.2em;
+    line-height: 1.7em;
 }
 
 .conteudo1 {
@@ -133,6 +140,15 @@ main{
     padding-left: 70px;
     padding: 20px;
     width: 700px;
+}
+
+h2.conteudo-lateral {
+    font-family: var(--font2);
+    color: var(--cor4);
+    padding: 10px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-indent: 8px;
 }
 
 footer {
